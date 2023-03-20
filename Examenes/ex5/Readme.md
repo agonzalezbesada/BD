@@ -37,6 +37,8 @@ Modelo de datos del ejemplo: https://github.com/openacs/openacs-core/blob/main/p
 Matricula (dni, nombres, apellidos, asignatura).
 Recuerda que tiene que estar normalizado.
 
+[p3.sql](https://github.com/agonzalezbesada/BD/blob/9aa2b7ad5dcc13b4d7320c2a861e20200f085b55/Examenes/ex5/p3.sql)
+
 # Normalización (p4.sql)
 
 ### Realiza el diseño físico de
