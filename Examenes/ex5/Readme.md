@@ -1,6 +1,6 @@
 # ADMINISTRAR UNA BD RELACIONAL
 
-# Creación de un BD (p1.sql)
+# Creación de una BD (p1.sql)
 
 ### Crea una base de datos que se llame ejemplo
 
@@ -8,11 +8,13 @@
 
 ### Añade la tabla1 que guardará el dni y nombre de una persona. tabla1 estará en el esquema esq1
 
-### Añáde la tabla2 que guardará el id de un pedido y el dni (que será una clave ajena a tabla1(dni).
+### Añáde la tabla2 que guardará el id de un pedido y el dni (que será una clave ajena a tabla1(dni)).
 
 ### Añádele el campo edad a tabla1. Y añade la restricción de que el valor sea entre 0 y 99
 
 ### Añádele el campo precio a tabla2. Que al menos guarde 4 dígitos decimales de precisión y hasta 9999 de valor sin decima
+
+[p1.sql](https://github.com/agonzalezbesada/BD/blob/8491e58aaa9ad018027ae55476c7eb68de891541/Examenes/ex5/p1.sql)
 
 # Lenguaje DML (p2.sql)
 
