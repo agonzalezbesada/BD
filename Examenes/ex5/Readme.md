@@ -43,5 +43,7 @@ Recuerda que tiene que estar normalizado.
 
 ### Realiza el diseño físico de
 
-Recuerdos(idFoto, idPersona, nombre, dni, títuloFoto, fecha,monumento, ciudad, antigüedadMonumento).
+Recuerdos(idFoto, idPersona, nombre, dni, títuloFoto, fecha, monumento, ciudad, antigüedadMonumento).
 Recuerda que tiene que estar normalizado.
+
+[p4.sql](https://github.com/agonzalezbesada/BD/blob/161bcb55acbfb66ff3ffda4f408a1c221356feae/Examenes/ex5/p4.sql)
