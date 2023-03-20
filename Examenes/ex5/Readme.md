@@ -28,6 +28,8 @@ Modelo de datos del ejemplo: https://github.com/openacs/openacs-core/blob/main/p
 
 ### Cómo harías para borrar los registros modificados (modifying_ip) desde la IP 200.200.200.200
 
+[p2.sql](https://github.com/agonzalezbesada/BD/blob/8aa4b56037b7cacb1cf67c4f002acec5d478cc5f/Examenes/ex5/p2.sql)
+
 # Normalización (p3.sql)
 
 ### Realiza el diseño físico de:
