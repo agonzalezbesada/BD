@@ -14,7 +14,7 @@
 
 ### Añádele el campo precio a tabla2. Que al menos guarde 4 dígitos decimales de precisión y hasta 9999 de valor sin decima
 
-[p1.sql](https://github.com/agonzalezbesada/BD/blob/8491e58aaa9ad018027ae55476c7eb68de891541/Examenes/ex5/p1.sql)
+[p1.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex5/p1.sql)
 
 # Lenguaje DML (p2.sql)
 
@@ -28,7 +28,7 @@ Modelo de datos del ejemplo: https://github.com/openacs/openacs-core/blob/main/p
 
 ### Cómo harías para borrar los registros modificados (modifying_ip) desde la IP 200.200.200.200
 
-[p2.sql](https://github.com/agonzalezbesada/BD/blob/8aa4b56037b7cacb1cf67c4f002acec5d478cc5f/Examenes/ex5/p2.sql)
+[p2.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex5/p2.sql)
 
 # Normalización (p3.sql)
 
@@ -37,7 +37,7 @@ Modelo de datos del ejemplo: https://github.com/openacs/openacs-core/blob/main/p
 Matricula (dni, nombres, apellidos, asignatura).
 Recuerda que tiene que estar normalizado.
 
-[p3.sql](https://github.com/agonzalezbesada/BD/blob/9aa2b7ad5dcc13b4d7320c2a861e20200f085b55/Examenes/ex5/p3.sql)
+[p3.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex5/p3.sql)
 
 # Normalización (p4.sql)
 
@@ -46,4 +46,4 @@ Recuerda que tiene que estar normalizado.
 Recuerdos(idFoto, idPersona, nombre, dni, títuloFoto, fecha, monumento, ciudad, antigüedadMonumento).
 Recuerda que tiene que estar normalizado.
 
-[p4.sql](https://github.com/agonzalezbesada/BD/blob/161bcb55acbfb66ff3ffda4f408a1c221356feae/Examenes/ex5/p4.sql)
+[p4.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex5/p4.sql)
