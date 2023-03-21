@@ -6,7 +6,7 @@
 -- 1FN
 CREATE TABLE Matricula (dni varchar(9) PRIMARY KEY NOT NULL,, nombres TEXT, apellidos TEXT, asignatura TEXT);
 
--- 2FN
+-- 2FN - 3FN
 CREATE TABLE Alumno (dni varchar(9) PRIMARY KEY NOT NULL, nombres TEXT, apellidos TEXT);
 
 CREATE TABLE Matricula (dni varchar(9) REFERENCES Alumno(dni), asignatura TEXT, PRIMARY KEY(dni,asignatura))

@@ -7,7 +7,7 @@
 CREATE TABLE Recuerdos(idFoto INTEGER PRIMARY KEY, nombre TEXT, dni varchar(9), tituloFoto TEXT, fech timestamp, monumento TEXT, ciudad TEXT, antiguedadMonumento TEXT);
 
 
--- 2FN
+-- 2FN - 3FN
 CREATE TABLE Recuerdos (idFoto INTEGER REFERENCES Foto(idFoto), idPersona REFERENCES Persona(idPersona), monumento TEXT REFERENCES Monumento(monumento));
 
 CREATE TABLE Foto (idFoto INTEGER PRIMARY KEY NOT NULL, tituloFoto TEXT, fecha timestamp, monumento TEXT);
