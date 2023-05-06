@@ -1,6 +1,3 @@
-SELECT * FROM Customers;
-SELECT * FROM Employees;
-SELECT * FROM Orders;
 -- Dime el nombre del cliente del pedido 10360
 SELECT ContactName, Orders.OrderID FROM Customers INNER JOIN Orders ON Customers.CustomerID=Orders.CustomerID WHERE Orders.OrderID LIKE '10360';
 -- Dime el nombre completo de los clientes con los pedidos 10360, 10253 y 10440
@@ -19,6 +16,6 @@ SELECT ('El empleado ' || FirstName || ' ' || LastName || ' registró ' || COUNT
 -- Quiero saber el número de pedido, qué empleado (sólo el nombre) lo registró y el cliente.
 SELECT OrderID, Employees.FirstName, CustomerID FROM Orders INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID;
 -- ¿Hay algún cliente que haya hecho más de un pedido registrado por el mismo empleado?
-
+SELECT CustomerID, Employees.FirstName, COUNT(OrderID) FROM Orders INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID GROUP BY Orders.CustomerID, Orders.EmployeeID HAVING COUNT(OrderID) > 1;
 -- Quiero saber los clientes que hayan hecho más de un pedido y que hayan sido registrado por un Empleado cuyo nombre sea Margaret.
 SELECT CustomerID, Count(OrderID), Employees.FirstName FROM Orders INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID GROUP BY Orders.CustomerID HAVING Orders.EmployeeID LIKE '4' AND Count(OrderID) > 1;
