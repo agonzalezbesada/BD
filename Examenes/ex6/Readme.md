@@ -2,9 +2,9 @@
 
 # EJERCICIOS SQL SOBRE LA BD NORTHWIND
 
-### p1.sql. Con los 10 primeros ejercicios
-### p2.sql. Con los ejercicios siguientes
-### p3.sql. Con los últimos cinco ejercicios
+### [p1.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex6/p1.sql) Con los 10 primeros ejercicios
+### [p2.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex6/p2.sql) Con los ejercicios siguientes
+### [p3.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex6/p3.sql) Con los últimos cinco ejercicios
 
 # SOBRE EL MANEJO DE VALORES NULOS
 
