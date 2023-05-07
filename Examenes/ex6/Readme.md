@@ -13,3 +13,5 @@
 ### Para arreglar este tema en el futuro, ¿qué instrucción de modificación DDL tendríamos que ejecutar?
 ### Borra todos los registros que no tengan un valor conocido de birth_date?
 ### Actualizar los valores nulos de bike_number para que tengan el valor B00000
+
+### [p4.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex6/p4.sql)
