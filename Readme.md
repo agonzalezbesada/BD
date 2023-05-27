@@ -5,3 +5,5 @@
 [Examen 5](https://github.com/agonzalezbesada/BD/tree/main/Examenes/ex5)
 
 [Examen 6](https://github.com/agonzalezbesada/BD/tree/main/Examenes/ex6)
+
+[Examen 7](https://github.com/agonzalezbesada/BD/tree/main/Examenes/ex7)
