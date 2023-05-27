@@ -1,0 +1,6 @@
+-- suma(n1,n2,n3). Crea una función que sume los dos primeros argumentos, y lo multiplique por un tercero. Los argumentos serán enteros
+CREATE FUNCTION sumaMultiplica(sumando1 integer, sumando2 integer, multiplicador integer) RETURNS integer AS $$ SELECT (sumando1+sumando2)*multiplicador $$ LANGUAGE SQL;
+-- actualizar_bicis(codigo). Sobre la BD Hubway, quiero cambiar todos los valores de los códigos de las bicis que están a null, con un valor que yo quiero escoger. Por ejemplo actualizar_bicis('000000')
+CREATE FUNCTION actualizar_bicis(codigo varchar(6)) LANGUAGE SQL AS $$ UPDATE trips SET bike_number = codigo WHERE bike_number IS NULL; $$;
+-- duracion_viaje(id,tipo). Necesito saber la duración de un viaje, en minutos o en horas, según el parámetro sea M o H. Por ejemplo duracion_viaje(4300,'M')
+CREATE FUNCTION duracion_viaje(id integer,tipo varchar(1)) RETURNS integer AS $$ BEGIN IF tipo = 'H' THEN RETURN (SELECT EXTRACT(HOUR FROM TIMESTAMP 'epoch' + duration * INTERVAL '1 second') FROM trips WHERE trips.id = duracion_viaje.id); END IF; IF tipo = 'M' THEN RETURN (SELECT EXTRACT(MINUTE FROM TIMESTAMP 'epoch' + duration * INTERVAL '1 second') FROM trips WHERE trips.id = duracion_viaje.id); END IF; END; $$ LANGUAGE plpgsql;
