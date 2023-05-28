@@ -1,0 +1,6 @@
+-- act_duracion_t. Al actualizar un viaje, comprobará que al menos la duración es de 20 segundos. Si no lo es, lo actualizará para que sea ese valor
+CREATE FUNCTION tiempoValido() RETURNS trigger AS $$ BEGIN IF (SELECT EXTRACT(MINUTE FROM TIMESTAMP 'epoch' + NEW.duration * INTERVAL '1 second') FROM trips WHERE id = OLD.ID) < 20 THEN NEW.duration = 20; RETURN NEW; END IF; END $$ LANGUAGE plpgsql;
+CREATE TRIGGER check_municipio_t BEFORE UPDATE ON trips FOR EACH ROW EXECUTE FUNCTION tiempoValido();
+-- check_municipio_t. Cuando se actualice el municipio de una estación, garantizará que sea de un municipio que esté previamente en la tabla. En el caso de que no exista ese municipio previamente no se aceptarán municipios nuevos
+CREATE FUNCTION municipioValido() RETURNS trigger AS $$BEGIN IF NOT EXISTS (SELECT 1 FROM stations WHERE municipality = NEW.municipality LIMIT 1) THEN RAISE EXCEPTION 'No existe en la tabla el municipio introducido'; END IF;  RETURN NEW; END; $$ LANGUAGE plpgsql;
+CREATE TRIGGER check_municipio_t BEFORE UPDATE ON stations FOR EACH ROW EXECUTE FUNCTION municipioValido();
