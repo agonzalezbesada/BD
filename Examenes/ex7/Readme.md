@@ -1,7 +1,7 @@
 # Programando el SGBDR
 
 
-# Usando funciones nativas en Postgres (p1.sql)
+# Usando funciones nativas en Postgres ([p1.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex7/p1.sql))
 
 
 ### Quiero crear un número aleatorio entre el 5 y el 30
@@ -24,7 +24,7 @@
 
 
 
-# Creando funciones (p2.sql)
+# Creando funciones ([p2.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex7/p2.sql))
 
 
 ### suma(n1,n2,n3). Crea una función que sume los dos primeros argumentos, y lo multiplique por un tercero. Los argumentos serán enteros
@@ -35,7 +35,7 @@
 
 
 
-# Creando Triggers (p4.sql)
+# Creando Triggers ([p4.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex7/p3.sql))
 
 
 ### act_duracion_t. Al actualizar un viaje, comprobará que al menos la duración es de 20 segundos. Si no lo es, lo actualizará para que sea ese valor
