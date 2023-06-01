@@ -34,8 +34,18 @@
 ### duracion_viaje(id,tipo). Necesito saber la duración de un viaje, en minutos o en horas, según el parámetro sea M o H. Por ejemplo duracion_viaje(4300,'M')
 
 
+# Creando funciones ([p3.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex7/p3.sql))
 
-# Creando Triggers ([p4.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex7/p3.sql))
+
+### actualiza_viaje(viaje, factor). Actualizar la duración para un viaje concreto. Es decir la nueva duración será la que tiene multiplicada por factor. Devolverá el número de viajes realizado desde la misma estación de origen
+
+### contar_viajes_mes(mes, referencia). Devuelve un entero con los viajes que se hicieron en un mes concreto (siendo 1 - enero y 12 - diciembre). Lanzará también un aviso en consola (RAISE NOTICE) clasificándolo en pocos / normal / muchos. El umbral de decisión será de 0,25 el valor de referencia (para pocos), 0,5 para normal y 0,75 muchos
+
+### borra_y_guarda(id). Crea una función que borre el viaje con ese id. Además guardará en un log (tabla viajes_borrados) un registro del tipo «El usuario $U borró el viaje $V», además el timestamp del borrado
+
+
+
+# Creando Triggers ([p4.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex7/p4.sql))
 
 
 ### act_duracion_t. Al actualizar un viaje, comprobará que al menos la duración es de 20 segundos. Si no lo es, lo actualizará para que sea ese valor
