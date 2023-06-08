@@ -1,7 +1,7 @@
 # Bases de Datos No SQL
 
 
-# Uso de JSON en Postgres [p1.sql]()
+# Uso de JSON en Postgres [p1.sql](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex8/p1.sql)
 Crea una base de datos en postgres que se llame "bd_frutas_json"
 
 ---
@@ -20,7 +20,7 @@ Crea una base de datos en postgres que se llame "bd_frutas_json"
 - Muéstrame las frutas que comiencen por la letra N
 
 
-# Modelo de datos en MongoDB [p2.sh]()
+# Modelo de datos en MongoDB [p2.sh](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex8/p2.sh)
 Diseña un almacén de datos que te permita gestionar y acceder a los datos de una aplicación de gestión de viajes sencilla. Se cumplirán los siguientes requisitos
 
 ---
