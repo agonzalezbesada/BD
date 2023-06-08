@@ -65,7 +65,7 @@ Trabajamos con la colección movies de la BD sample_mflix
 
 
 
-# Agregación y Pipelines [p5.sh]()
+# Agregación y Pipelines [p5.sh](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex8/p5.sh)
 Trabajamos con la colección sales de la BD sample_supplies
 
 ---
