@@ -32,7 +32,7 @@ Diseña un almacén de datos que te permita gestionar y acceder a los datos de u
 - De los viajes queremos conocer de qué ciudad es el origen y cual es el destino, y claro la fecha (de salida y llegada). Ah! Y de cada ciudad queremos saber cuantos habitantes tiene y una descripción sencilla de 150 caracteres máximo con un recomendación de cosas para ver
 
 
-# Consultas en MongoDB [p3.sh]()
+# Consultas en MongoDB [p3.sh](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex8/p3.sh)
 Trabajamos sobre la colección restaurants de la BD sample_restaurants
 
 ---
