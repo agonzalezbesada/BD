@@ -48,7 +48,7 @@ Trabajamos sobre la colección restaurants de la BD sample_restaurants
 - Los que sean de cocina Italiana o Mexican y estén en Manhattan (borough). Que aparezca la calle, el edificio, el barrio, el tipo de cocina y grades (todas las valoraciones)
 
 
-# Actualización Borrado de datos [p4.sh]()
+# Actualización Borrado de datos [p4.sh](https://github.com/agonzalezbesada/BD/blob/main/Examenes/ex8/p4.sh)
 Trabajamos con la colección movies de la BD sample_mflix
 
 ---
